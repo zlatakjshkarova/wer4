@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 50px;
+}
+
+#indicatorList {
+    display: flex;
+    column-gap: 5;
+}
+
+.indicator {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 50%;
+}
